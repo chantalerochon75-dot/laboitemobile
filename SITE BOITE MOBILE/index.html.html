@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boîte Mobile - Location de bacs de déménagement à Gatineau</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient { background: linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.8)), url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&q=80'); background-size: cover; background-position: center; }
+        .accent-lime { color: #84cc16; }
+        .bg-lime-custom { background-color: #84cc16; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="bg-blue-900 text-white p-2 rounded">
+                    <i class="fas fa-box-open text-xl"></i>
+                </div>
+                <span class="text-2xl font-black text-blue-900 tracking-tighter">LA BOÎTE MOBILE</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-bold text-sm uppercase text-gray-600">
+                <a href="#forfaits" class="hover:text-blue-900">Forfaits</a>
+                <a href="#avantages" class="hover:text-blue-900">Pourquoi nous ?</a>
+                <a href="#bio" class="hover:text-blue-900 underline decoration-lime-500 decoration-2">Notre Histoire</a>
+                <a href="#reservation" class="bg-lime-custom text-white px-5 py-2 rounded-full hover:bg-lime-600 transition text-center">Réserver en ligne</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient h-[70vh] flex items-center text-white text-center px-4">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-lime-400 font-bold uppercase tracking-widest mb-4">Déménagez sans stress à Gatineau</h2>
+            <h1 class="text-5xl md:text-7xl font-black mb-6">Louez vos bacs, <br><span class="accent-lime">simplifiez votre vie.</span></h1>
+            <p class="text-xl mb-8 opacity-90">Livraison à domicile, bacs robustes et écologiques. Évitez le carton, choisissez la solidité.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#forfaits" class="bg-white text-blue-900 px-8 py-4 rounded-full font-black text-lg hover:bg-gray-100 transition shadow-xl text-center">Voir les tarifs</a>
+                <a href="tel:8735698518" class="bg-lime-custom text-white px-8 py-4 rounded-full font-black text-lg hover:bg-lime-600 transition shadow-xl text-center">
+                    <i class="fas fa-phone mr-2"></i> 873-569-8518
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Avantages -->
+    <section id="avantages" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-black text-blue-900 mb-12 uppercase italic">Pourquoi nous choisir ?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="p-8 bg-white rounded-2xl shadow-sm border-b-4 border-lime-500">
+                    <i class="fas fa-truck-fast text-4xl text-blue-900 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">Livraison Directe</h3>
+                    <p class="text-gray-600">On livre les bacs à votre porte et on les récupère une fois le déménagement terminé. Zéro déplacement pour vous.</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm border-b-4 border-lime-500">
+                    <i class="fas fa-shield-heart text-4xl text-blue-900 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">Ultra Robuste</h3>
+                    <p class="text-gray-600">Fini les boîtes qui défoncent. Nos bacs sont empilables, étanches et protègent vos biens les plus précieux.</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm border-b-4 border-lime-500">
+                    <i class="fas fa-leaf text-4xl text-blue-900 mb-6"></i>
+                    <h3 class="text-xl font-bold mb-4">Éco-Responsable</h3>
+                    <p class="text-gray-600">Réduisez votre empreinte écologique en évitant le gaspillage de carton à usage unique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION BIO -->
+    <section id="bio" class="py-20 bg-white overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-lime-100 rounded-full blur-2xl opacity-50"></div>
+                        <div class="relative bg-blue-900 w-64 h-64 rounded-2xl rotate-3 flex items-center justify-center text-white shadow-2xl">
+                            <i class="fas fa-heart-pulse text-7xl opacity-20 absolute"></i>
+                            <p class="text-center font-black p-6 uppercase leading-tight">Bâtir un futur <br><span class="text-lime-400">solide</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="text-3xl font-black text-blue-900 mb-6 uppercase italic">Derrière chaque boîte, une histoire</h2>
+                    <div class="space-y-4 text-lg leading-relaxed text-gray-700">
+                        <p>
+                            Bienvenue chez <strong>La Boîte Mobile</strong>. Je m'appelle Chantale, et ce projet est bien plus qu'une simple entreprise de location de bacs. C'est le fruit d'un nouveau départ.
+                        </p>
+                        <p>
+                            Mon parcours vers la sobriété m'a appris que pour bâtir quelque chose de durable, il faut des fondations solides. C'est cette même solidité que je souhaite vous offrir pour votre déménagement.
+                        </p>
+                        <p class="bg-blue-50 p-4 border-l-4 border-blue-900 italic rounded-r-lg">
+                            « Pas à pas, bac par bac, je bâtis ma liberté et je vous aide à simplifier votre transition vers votre nouveau foyer. »
+                        </p>
+                        <p>
+                            En choisissant La Boîte Mobile, vous n'optez pas seulement pour la simplicité et l'écologie; vous encouragez une entrepreneure locale de Gatineau qui croit en la force de la discipline et de la renaissance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forfaits -->
+    <section id="forfaits" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-blue-900 uppercase">Nos Forfaits (1 Semaine)</h2>
+                <p class="text-gray-500 mt-2">Livraison et récupération incluses à Gatineau</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Forfait 10 -->
+                <div class="bg-white border-2 border-gray-100 p-8 rounded-3xl text-center hover:shadow-2xl transition group hover:border-lime-500">
+                    <h3 class="font-bold text-gray-500 uppercase text-sm mb-4">L'Essentiel</h3>
+                    <div class="text-4xl font-black mb-2">10 Bacs</div>
+                    <div class="text-3xl text-blue-900 font-black mb-6">69$</div>
+                    <button type="button" onclick="selectPackage('10 Bacs - 69$', 10, 69)" class="block w-full py-3 rounded-xl border-2 border-blue-900 font-bold hover:bg-blue-900 hover:text-white transition uppercase text-xs tracking-widest cursor-pointer">Choisir</button>
+                </div>
+                <!-- Forfait 20 -->
+                <div class="bg-white border-2 border-gray-100 p-8 rounded-3xl text-center hover:shadow-2xl transition group hover:border-lime-500">
+                    <h3 class="font-bold text-gray-500 uppercase text-sm mb-4">Le Classique</h3>
+                    <div class="text-4xl font-black mb-2">20 Bacs</div>
+                    <div class="text-3xl text-blue-900 font-black mb-6">89$</div>
+                    <button type="button" onclick="selectPackage('20 Bacs - 89$', 20, 89)" class="block w-full py-3 rounded-xl border-2 border-blue-900 font-bold hover:bg-blue-900 hover:text-white transition uppercase text-xs tracking-widest cursor-pointer">Choisir</button>
+                </div>
+                <!-- Forfait 40 -->
+                <div class="bg-blue-900 p-8 rounded-3xl text-center text-white shadow-xl relative overflow-hidden border-2 border-blue-900 scale-105 z-10">
+                    <div class="bg-lime-500 text-white text-[10px] font-bold py-1 px-10 absolute top-4 -right-8 rotate-45 uppercase">Populaire</div>
+                    <h3 class="font-bold opacity-70 uppercase text-sm mb-4">Le Familial</h3>
+                    <div class="text-4xl font-black mb-2">40 Bacs</div>
+                    <div class="text-3xl text-lime-400 font-black mb-6">109$</div>
+                    <button type="button" onclick="selectPackage('40 Bacs - 109$', 40, 109)" class="block w-full py-3 rounded-xl bg-lime-500 text-white font-bold hover:bg-lime-600 transition uppercase text-xs tracking-widest cursor-pointer">Choisir</button>
+                </div>
+                <!-- Forfait 60 -->
+                <div class="bg-white border-2 border-gray-100 p-8 rounded-3xl text-center hover:shadow-2xl transition group hover:border-lime-500">
+                    <h3 class="font-bold text-gray-500 uppercase text-sm mb-4">Grand Volume</h3>
+                    <div class="text-4xl font-black mb-2">60 Bacs</div>
+                    <div class="text-3xl text-blue-900 font-black mb-6">139$</div>
+                    <button type="button" onclick="selectPackage('60 Bacs - 139$', 60, 139)" class="block w-full py-3 rounded-xl border-2 border-blue-900 font-bold hover:bg-blue-900 hover:text-white transition uppercase text-xs tracking-widest cursor-pointer">Choisir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Réservation -->
+    <section id="reservation" class="py-20 bg-blue-50">
+        <div class="max-w-2xl mx-auto px-4">
+            <div class="bg-white p-8 rounded-3xl shadow-xl border-t-8 border-blue-900">
+                <h2 class="text-3xl font-black text-blue-900 text-center mb-8 uppercase italic">Réservez vos bacs</h2>
+                
+                <div id="reservationForm" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-black uppercase text-gray-500 mb-1">Nom Complet</label>
+                        <input type="text" id="custName" placeholder="Votre nom" class="w-full border-2 border-gray-100 rounded-xl p-3 outline-none focus:border-blue-900 transition">
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-black uppercase text-gray-500 mb-1">Date souhaitée</label>
+                            <input type="date" id="custDate" class="w-full border-2 border-gray-100 rounded-xl p-3 outline-none focus:border-blue-900 transition text-gray-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-black uppercase text-gray-500 mb-1">Téléphone</label>
+                            <input type="tel" id="custPhone" placeholder="819-000-0000" class="w-full border-2 border-gray-100 rounded-xl p-3 outline-none focus:border-blue-900 transition">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-black uppercase text-gray-500 mb-1">Forfait Sélectionné</label>
+                        <input type="text" id="custPackage" readonly placeholder="Sélectionnez un forfait ci-dessus" class="w-full border-2 border-gray-100 bg-gray-50 rounded-xl p-3 font-bold text-blue-900">
+                    </div>
+                    
+                    <button type="button" onclick="submitReservation()" id="submitBtn" class="w-full bg-blue-900 text-white py-4 rounded-xl font-black text-lg shadow-lg hover:bg-blue-800 transition transform active:scale-95 uppercase tracking-widest">
+                        Confirmer ma réservation
+                    </button>
+                    <p class="text-[10px] text-center text-gray-400 font-bold uppercase tracking-tighter">Paiement facile lors de la livraison</p>
+                </div>
+
+                <div id="successMsg" class="hidden text-center py-10">
+                    <div class="text-6xl text-lime-500 mb-4"><i class="fas fa-check-circle"></i></div>
+                    <h3 class="text-2xl font-black text-blue-900 mb-2 uppercase">C'est reçu !</h3>
+                    <p class="text-gray-600">Merci de faire confiance à La Boîte Mobile. On vous appelle sous peu pour confirmer l'heure de livraison.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section id="contact" class="py-20 bg-blue-900 text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-4xl font-black mb-8 italic uppercase tracking-tighter">On se parle bientôt ?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <a href="tel:8735698518" class="bg-blue-800 p-8 rounded-2xl hover:bg-blue-700 transition group block">
+                    <i class="fas fa-phone text-3xl mb-4 text-lime-400 group-hover:scale-110 transition"></i>
+                    <p class="text-2xl font-black">873-569-8518</p>
+                    <p class="text-xs opacity-50 uppercase font-bold mt-2">Appel ou SMS</p>
+                </a>
+                <a href="mailto:laboitemobile@gmail.com" class="bg-blue-800 p-8 rounded-2xl hover:bg-blue-700 transition group block">
+                    <i class="fas fa-envelope text-3xl mb-4 text-lime-400 group-hover:scale-110 transition"></i>
+                    <p class="text-xl font-black truncate">laboitemobile@gmail.com</p>
+                    <p class="text-xs opacity-50 uppercase font-bold mt-2">Réponse rapide</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t bg-white text-center">
+        <div class="mb-4 flex justify-center space-x-4 text-blue-900 opacity-30">
+            <i class="fas fa-box"></i>
+            <i class="fas fa-truck"></i>
+            <i class="fas fa-house-chimney"></i>
+        </div>
+        <p class="text-xs text-gray-400 font-bold uppercase tracking-widest">© 2026 La Boîte Mobile Gatineau • Pas à pas, bac par bac.</p>
+    </footer>
+
+    <script type="text/javascript">
+        // Variables globales pour stocker le choix
+        var selectedQty = 0;
+        var selectedPrice = 0;
+
+        function selectPackage(name, qty, price) {
+            console.log("Forfait sélectionné : " + name);
+            document.getElementById('custPackage').value = name;
+            selectedQty = qty;
+            selectedPrice = price;
+            
+            // On fait défiler la page doucement vers le formulaire
+            document.getElementById('reservation').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        async function submitReservation() {
+            var name = document.getElementById('custName').value;
+            var date = document.getElementById('custDate').value;
+            var phone = document.getElementById('custPhone').value;
+            var pkg = document.getElementById('custPackage').value;
+
+            if(!name || !date || !phone || !pkg) {
+                alert("Oups ! Il manque des informations pour compléter la réservation.");
+                return;
+            }
+
+            var btn = document.getElementById('submitBtn');
+            btn.disabled = true;
+            btn.innerText = "Traitement en cours...";
+
+            // Ici, on simule l'envoi pour que le site fonctionne même sans config Firebase
+            setTimeout(function() {
+                document.getElementById('reservationForm').style.display = 'none';
+                document.getElementById('successMsg').style.display = 'block';
+                document.getElementById('successMsg').classList.remove('hidden');
+                console.log("Réservation envoyée localement");
+            }, 1000);
+        }
+    </script>
+
+</body>
+</html>
